@@ -30,6 +30,14 @@
         @{
             @"title":@"图片轮播器",
             @"ctr":@"ImagesScrollController"
+        },
+        @{
+            @"title":@"图片延迟加载",
+            @"ctr":@"ImageDelayLoadController"
+        },
+        @{
+            @"title":@"后台常驻线程",
+            @"ctr":@"ResidentThreadController"
         }
     ];
     [self.view addSubview:self.tableView];

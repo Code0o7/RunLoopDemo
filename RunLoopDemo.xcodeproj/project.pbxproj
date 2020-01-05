@@ -16,6 +16,12 @@
 		FFED41A323C1CFAE0018ED42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41A223C1CFAE0018ED42 /* main.m */; };
 		FFED41AB23C1D2330018ED42 /* TimerUsedCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41AA23C1D2330018ED42 /* TimerUsedCtr.m */; };
 		FFED41AE23C1D2860018ED42 /* ImagesScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41AD23C1D2860018ED42 /* ImagesScrollController.m */; };
+		FFED41B123C1D9A80018ED42 /* ImageDelayLoadController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41B023C1D9A80018ED42 /* ImageDelayLoadController.m */; };
+		FFED41B523C1DC470018ED42 /* ImageDelayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41B323C1DC470018ED42 /* ImageDelayCell.m */; };
+		FFED41BA23C1DD750018ED42 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFED41B723C1DD750018ED42 /* image2.jpg */; };
+		FFED41BB23C1DD750018ED42 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFED41B823C1DD750018ED42 /* image1.jpg */; };
+		FFED41BC23C1DD750018ED42 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFED41B923C1DD750018ED42 /* image3.jpg */; };
+		FFED41BF23C1E4150018ED42 /* ResidentThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFED41BE23C1E4150018ED42 /* ResidentThreadController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,15 @@
 		FFED41AA23C1D2330018ED42 /* TimerUsedCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerUsedCtr.m; sourceTree = "<group>"; };
 		FFED41AC23C1D2860018ED42 /* ImagesScrollController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesScrollController.h; sourceTree = "<group>"; };
 		FFED41AD23C1D2860018ED42 /* ImagesScrollController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesScrollController.m; sourceTree = "<group>"; };
+		FFED41AF23C1D9A80018ED42 /* ImageDelayLoadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDelayLoadController.h; sourceTree = "<group>"; };
+		FFED41B023C1D9A80018ED42 /* ImageDelayLoadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDelayLoadController.m; sourceTree = "<group>"; };
+		FFED41B223C1DC470018ED42 /* ImageDelayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDelayCell.h; sourceTree = "<group>"; };
+		FFED41B323C1DC470018ED42 /* ImageDelayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDelayCell.m; sourceTree = "<group>"; };
+		FFED41B723C1DD750018ED42 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		FFED41B823C1DD750018ED42 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		FFED41B923C1DD750018ED42 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		FFED41BD23C1E4150018ED42 /* ResidentThreadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResidentThreadController.h; sourceTree = "<group>"; };
+		FFED41BE23C1E4150018ED42 /* ResidentThreadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResidentThreadController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +92,20 @@
 				FFED41AA23C1D2330018ED42 /* TimerUsedCtr.m */,
 				FFED41AC23C1D2860018ED42 /* ImagesScrollController.h */,
 				FFED41AD23C1D2860018ED42 /* ImagesScrollController.m */,
+				FFED41AF23C1D9A80018ED42 /* ImageDelayLoadController.h */,
+				FFED41B023C1D9A80018ED42 /* ImageDelayLoadController.m */,
+				FFED41B223C1DC470018ED42 /* ImageDelayCell.h */,
+				FFED41B323C1DC470018ED42 /* ImageDelayCell.m */,
+				FFED41BD23C1E4150018ED42 /* ResidentThreadController.h */,
+				FFED41BE23C1E4150018ED42 /* ResidentThreadController.m */,
 				FFED419923C1CFAB0018ED42 /* Main.storyboard */,
 				FFED419C23C1CFAE0018ED42 /* Assets.xcassets */,
 				FFED419E23C1CFAE0018ED42 /* LaunchScreen.storyboard */,
 				FFED41A123C1CFAE0018ED42 /* Info.plist */,
 				FFED41A223C1CFAE0018ED42 /* main.m */,
+				FFED41B823C1DD750018ED42 /* image1.jpg */,
+				FFED41B723C1DD750018ED42 /* image2.jpg */,
+				FFED41B923C1DD750018ED42 /* image3.jpg */,
 			);
 			path = RunLoopDemo;
 			sourceTree = "<group>";
@@ -144,7 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFED41A023C1CFAE0018ED42 /* LaunchScreen.storyboard in Resources */,
+				FFED41BB23C1DD750018ED42 /* image1.jpg in Resources */,
 				FFED419D23C1CFAE0018ED42 /* Assets.xcassets in Resources */,
+				FFED41BC23C1DD750018ED42 /* image3.jpg in Resources */,
+				FFED41BA23C1DD750018ED42 /* image2.jpg in Resources */,
 				FFED419B23C1CFAB0018ED42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,10 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFED41B123C1D9A80018ED42 /* ImageDelayLoadController.m in Sources */,
 				FFED419823C1CFAB0018ED42 /* ViewController.m in Sources */,
 				FFED419223C1CFAB0018ED42 /* AppDelegate.m in Sources */,
 				FFED41A323C1CFAE0018ED42 /* main.m in Sources */,
+				FFED41BF23C1E4150018ED42 /* ResidentThreadController.m in Sources */,
 				FFED41AB23C1D2330018ED42 /* TimerUsedCtr.m in Sources */,
+				FFED41B523C1DC470018ED42 /* ImageDelayCell.m in Sources */,
 				FFED41AE23C1D2860018ED42 /* ImagesScrollController.m in Sources */,
 				FFED419523C1CFAB0018ED42 /* SceneDelegate.m in Sources */,
 			);
